@@ -2,7 +2,7 @@ __author__ = 'huxw'
 import web
 urls = ('/','index')
 app = web.application(urls,globals())
-render = web.template.render('F:\workspace\project\AWS\lambda\gothonweb\\bin\\templates\\')
+render = web.template.render('templates/')
 class index:
     def GET(self):
         greeting = "kaixin"
